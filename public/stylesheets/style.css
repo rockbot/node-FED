@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.awesome-form {
+  margin: 0 auto;
+  width: 50%;
+}
+.input-desc label {
+  width: 25%;
+  display: inline-block;
+  text-align: right;
+  padding-right: 5%;
+}
+.input-desc input {
+  width: 50%;
+  padding: 1% 0.25em;
+}
+.submit-area {
+  text-align: center;
+}
+.btn {
+  background-color: #9bf78e;
+  margin-top: 2em;
+  padding: 1em 2%;
+}

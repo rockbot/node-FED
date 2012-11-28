@@ -1,0 +1,14 @@
+extends layout
+
+mixin description(label, name, placeholder)
+  div.input-desc
+    label= label
+    input(name=name, placeholder=placeholder)
+
+block content
+  form.awesome-form(action='#', method='POST')
+    each input in inputs
+      mixin description(input.label, input.name, input.placeholder)
+
+    .submit-area
+      button.btn Enter...?
