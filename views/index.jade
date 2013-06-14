@@ -6,7 +6,12 @@ mixin description(label, name, placeholder)
     input(name=name, placeholder=placeholder)
 
 block content
+  //- h1= title
+  //- p Welcome to #{title}
   form.awesome-form(action='#', method='POST')
+    //- mixin description('Full Name: ', 'name', 'Roy G. Biv')
+    //- mixin description('Email: ', 'email', 'roy@biv.com')
+
     each input in inputs
       mixin description(input.label, input.name, input.placeholder)
 

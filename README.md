@@ -1,7 +1,7 @@
 # node-FED
 ========
 
-Sample code from my talk on Front-End Development in Node.js
+Sample code from my talk on Front-End Development in node.js
 
 ## Installation
 
@@ -12,7 +12,7 @@ Sample code from my talk on Front-End Development in Node.js
  
 ## Key Links:
 
-* [The presentation](https://speakerdeck.com/rockbot/node-fed)
+* [The presentation](https://speakerdeck.com/rockbot/front-end-development-in-node-dot-js)
 * [Jade](http://jade-lang.com)
 * [Stylus](http://learnboost.github.com/stylus/)
 * [Install node and npm](https://github.com/joyent/node/wiki/Installation)
@@ -23,4 +23,4 @@ Contact me via [email](mailto:hiya@raquelvelez.com) or [Twitter](http://twitter.
 
 ## License
 
-Copyright (c) 2012 Raquel Vélez hiya@raquelvelez.com. Licensed under the MIT license.
+Copyright (c) 2013 Raquel Vélez hiya@raquelvelez.com. Licensed under the MIT license.
